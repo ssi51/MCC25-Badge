@@ -47,7 +47,7 @@ To program the MCC25 Badge, you will need to install the necessary drivers and b
 
 1.  Select the board: `ESP32C3 Dev Module`.
 2.  Ensure `USB CDC On Boot` is set to "Enable" if you are using the USB port for serial debugging.
-3.  Connect your MCC25 Badge via USB-C.
+3.  Connect your MCC25 Badge via USB-Micro.
 4.  Select the correct Port under `Tools` > `Port`.
 5.  Upload the example `Blink` or `DisplayTest` sketch from the `/examples` folder in this repo.
 
@@ -60,7 +60,7 @@ The MCC25 Badge can be powered in two ways:
 
 ## 📂 Repository Structure
 
-* `/firmware` - Source code, future updates, and example sketches.
+* `/examples` - Source code, future updates, and example sketches.
 * `/hardware` - PCB design files (Gerbers, Schematics).
 * `/docs` - Datasheets and additional documentation.
 
